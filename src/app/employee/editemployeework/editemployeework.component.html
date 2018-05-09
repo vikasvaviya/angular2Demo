@@ -1,0 +1,22 @@
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="card">
+      <div class="col-sm-12">
+        <div class="card-header" data-background-color="red">Edit Details</div>
+        <div class="card-content">
+          <form #editwork="ngForm" *ngFor="let editemployeeData of EditEmployeeData">
+            <label>Active Time</label>
+            <input class="form-control" type="text" name="CurrentActiveTime"  ngModel="{{((editemployeeData.CurrentActiveTime/1000)/60)/60}}" >
+            <label>Date</label>
+            <input class="form-control" type="text" name="Date"  ngModel="{{editemployeeData.Date}}" >
+            <label>Working Hour</label>
+            <input class="form-control" type="text" name="Difference"  ngModel="{{editemployeeData.Diffrence }}" >
+            <button class="btn btn-danger" type="button">Update</button>
+          </form>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>

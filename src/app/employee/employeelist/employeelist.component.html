@@ -1,0 +1,58 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card ">
+                    <div class="card-header" data-background-color="red">
+                        <h4 class="title">List of Employee</h4>
+                        <p class="category">Sub Employee</p>
+
+                    </div>
+                    <div class="card-content table-responsive" >
+                        <form *ngIf="CurrentEmployee.employee.Role === 'ADMIN'">
+                            <div class="row">
+                                <div class="form-group col-xs-3">
+                                    <input  type="date" class="form-control col-sm-2" name="StartDate" [(ngModel)]="StartDate" >
+                                </div>
+                                <div class="form-group col-xs-1 text-center">To</div>
+                                <div class="form-group col-xs-3">
+                                    <input type="date" class="form-control col-sm-2" name="ToDate" [(ngModel)]="ToDate" (change)="datefilter(StartDate, ToDate)"  >
+                                </div>
+                            </div>
+                        </form>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Working Time</th>
+                                    <th *ngIf="CurrentEmployee.employee.Role === 'ADMIN'">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody *ngIf="CurrentEmployee.employee.Role === 'ADMIN'">
+                            <tr *ngFor="let employee of EmployeeData ; index as i; ">
+                                <td>{{i}}</td>
+                                <td>{{employee._id.Date}}</td>
+                                <td>{{employee.Total }}</td>
+                                <td *ngIf="CurrentEmployee.employee.Role === 'ADMIN'">
+                                        <button class="btn btn-success btn-sm" type="button" (click)="EditEmployee(employee._id)">Edit</button>
+                                        <button class="btn btn-danger btn-sm" type="button" (click)="DeleteEmployee(employee._id)">Delete</button>
+                                        <button class="btn btn-danger btn-sm" type="button" >Details</button>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+
+                            <tbody *ngIf="CurrentEmployee.employee.Role === 'EMPLOYEE'">
+                              <tr *ngFor="let emp of EmployeeData; index as i;">
+                                  <td>{{i}}</td>
+                                  <td>{{emp._id.Date}}</td>
+                                  <td>{{emp.Total|date:'hh:mm'}}</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

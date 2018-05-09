@@ -1,0 +1,159 @@
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-10">
+        <div class="card">
+          <div class="card-header" data-background-color="red">
+            <h4 *ngIf="IsAddVisible">Add Employee Details</h4>
+            <h4 *ngIf="!IsAddVisible">Update Employee Details</h4>
+          </div>
+          <div class="card-content">
+            <form #empadd="ngForm">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group form-black label-floating is-empty " [ngClass]="{'is-focused ':focused}" >
+                    <label class="control-label" for="FirstName">FirstName</label>
+                    <input class="form-control" [(ngModel)]="EmployeeData.FirstName" name="FirstName"  type="text" id="FirstName" #FirstName="ngModel" required>
+                    <div  *ngIf="FirstName.invalid && (FirstName.touched ||FirstName.dirty)">
+                      <p class=" text-danger" *ngIf="FirstName.errors.required">Enter First Name</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group form-black label-floating is-empty" [ngClass]="{'is-focused':focused}">
+                    <label class="control-label" for="LastName">LastName</label>
+                    <input class="form-control" [(ngModel)]="EmployeeData.LastName" name="LastName" #LastName="ngModel" type="text" id="LastName" required>
+                    <div  *ngIf="LastName.invalid && (LastName.touched ||LastName.dirty)">
+                      <p class=" text-danger" *ngIf="LastName.errors.required">Enter Last Name</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group form-black label-floating is-empty" [ngClass]="{'is-focused':focused}">
+                    <label class="control-label" for="Email">Email</label>
+                    <input class="form-control" [(ngModel)]="EmployeeData.Email" name="Email" type="email" id="Email" required #Email="ngModel">
+                    <div  *ngIf="Email.invalid && (Email.touched ||Email.dirty)">
+                      <p class=" text-danger" *ngIf="Email.errors.required">Enter Email</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group form-black label-floating is-empty" [ngClass]="{'is-focused':focused}">
+                    <label class="control-label" for="Mob_Number">Mobile Number</label>
+                    <input class="form-control" [(ngModel)]="EmployeeData.Mobile" name="Mobile" type="number" id="Mob_Number" required #Mobile="ngModel">
+                    <div  *ngIf="Mobile.invalid && (Mobile.touched ||Mobile.dirty)">
+                      <p class=" text-danger" *ngIf="Mobile.errors.required">Enter Mobile Number</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group form-black label-floating is-empty" [ngClass]="{'is-focused':focused}">
+                    <label for="Address" class="control-label">Address</label>
+                    <textarea id="Address" [(ngModel)]="EmployeeData.Address" name="Address" class="form-control" required #Address="ngModel"></textarea>
+                    <div  *ngIf="Address.invalid && (Address.touched ||Address.dirty)">
+                      <p class=" text-danger" *ngIf="Address.errors.required">Enter Address Details</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group form-black label-floating is-empty " [ngClass]="{'is-focused':focused}">
+                    <label for="birthdate" class="control-label"></label>
+                    <input id="birthdate" [(ngModel)]="EmployeeData.Dob" name="Birthdate" type="date" class="form-control " required #Birthdate="ngModel">
+                    <div  *ngIf="Birthdate.invalid && (Birthdate.touched ||Birthdate.dirty)">
+                      <p class=" text-danger" *ngIf="Birthdate.errors.required">select Date of birth</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group form-black label-floating is-empty " [ngClass]="{'is-focused':focused}">
+                    <label for="Designation" class="control-label">Designation</label>
+                    <input id="Designation" [(ngModel)]="EmployeeData.Designation" name="Designation" type="text" class="form-control" required #Designation="ngModel">
+                    <div  *ngIf="Designation.invalid && (Designation.touched ||Designation.dirty)">
+                      <p class=" text-danger" *ngIf="Designation.errors.required">Add designation</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group form-black label-floating is-empty " [ngClass]="{'is-focused':focused}">
+                    <label for="City" class="control-label">City</label>
+                    <input id="City" [(ngModel)]="EmployeeData.City"  name="City" type="text" class="form-control" required #City="ngModel" >
+                    <div  *ngIf="City.invalid && (City.touched ||City.dirty)">
+                      <p class=" text-danger" *ngIf="City.errors.required">Enter City</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group form-black label-floating is-empty " [ngClass]="{'is-focused':focused}">
+                    <label for="State" class="control-label">State</label>
+                    <input id="State" [(ngModel)]="EmployeeData.State" name="State" type="text" class="form-control " required #State="ngModel" >
+                    <div  *ngIf="State.invalid && (State.touched ||State.dirty)">
+                      <p class=" text-danger" *ngIf="State.errors.required">Enter State</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group form-black label-floating is-empty " [ngClass]="{'is-focused':focused}">
+                    <label for="Country" class="control-label">Country</label>
+                    <input id="Country" [(ngModel)]="EmployeeData.Country" name="Country" type="text" class="form-control" required #Country="ngModel" >
+                    <div  *ngIf="Country.invalid && (Country.touched ||Country.dirty)">
+                      <p class=" text-danger" *ngIf="Country.errors.required">Enter Country</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group form-black label-floating is-empty " [ngClass]="{'is-focused':focused}">
+                    <label class="control-label" for="Jd">Joining Date</label>
+                    <input class="form-control" [(ngModel)]="EmployeeData.Joining_Date"  name="Joining_Date" type="date" id="Jd" required #Joining_Date="ngModel" >
+                    <div  *ngIf="Joining_Date.invalid && (Joining_Date.touched ||Joining_Date.dirty)">
+                      <p class=" text-danger" *ngIf="Joining_Date.errors.required">Select Joining Date</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group form-black label-floating is-empty" [ngClass]="{'is-focused':focused}">
+                    <label class="control-label" for="Zipcode">Zipcode</label>
+                    <input class="form-control" [(ngModel)]="EmployeeData.Zipcode" name="Zipcode" type="number" id="Zipcode" required #Zipcode="ngModel" >
+                    <div  *ngIf="Zipcode.invalid && (Zipcode.touched ||Zipcode.dirty)">
+                      <p class=" text-danger" *ngIf="Zipcode.errors.required">Enter Zipcode</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group form-black label-floating is-empty" [ngClass]="{'is-focused':focused}">
+                    <label class="control-label" for="Password">password</label>
+                    <input class="form-control" [(ngModel)]="EmployeeData.Password" name="Password" type="password" id="Password" required #Password="ngModel" >
+                    <div  *ngIf="Password.invalid && (Password.touched ||Password.dirty)">
+                      <p class=" text-danger" *ngIf="Password.errors.required">Enter  password</p>
+                    </div>
+                  </div>
+                </div>
+<!--
+                <div class="col-md-6">
+                  <div class="form-group form-black label-floating is-empty" [ngClass]="{'is-focused':focused}">
+                    <label class="control-label" for="Role">Role</label>
+                    <input class="checkbox" [(ngModel)]="EmployeeData.Role" name="Role" type="text" id="Role">
+                  </div>
+                </div>
+-->
+              </div>
+              <button type="button" class="btn btn-danger pull-right" *ngIf="IsAddVisible" [disabled]="!empadd.valid" (click)="AddEmployee(empadd.value)">  Add </button>
+              <button type="button" class="btn btn-danger pull-right" *ngIf="!IsAddVisible" (click)="UpdateEmployee(empadd.value)">  Update </button>
+              <div class="clearfix"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

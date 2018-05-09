@@ -1,0 +1,408 @@
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5add9b3cfa39c745e2c58c91"),
+	"CurrentActiveTime" : NumberInt("1200000"),
+	"Date" : "01/04/2018",
+	"Diffrence" : 1.8833333333333333,
+	"Empid" : [
+		ObjectId("5add96bea07e0e3f34c61ead")
+	],
+	"Login_Time" : "2:07 pm",
+	"Logout_Time" : "4:00 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5addc072d961e85d03117c4d"),
+	"CurrentActiveTime" : NumberInt("4800000"),
+	"Date" : "02/04/2018",
+	"Diffrence" : 0.13333333333333333,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "4:46 pm",
+	"Logout_Time" : "4:54 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5addc31cd961e85d03117c4e"),
+	"CurrentActiveTime" : NumberInt("4800000"),
+	"Date" : "03/04/2018",
+	"Diffrence" : NumberInt("0"),
+	"Empid" : [
+		ObjectId("5add96d2a07e0e3f34c61eae")
+	],
+	"Login_Time" : "4:57 pm",
+	"Logout_Time" : "5:05 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5adea6bd8f0e190f98271d5c"),
+	"CurrentActiveTime" : NumberInt("30000000"),
+	"Date" : "04/04/2018",
+	"Diffrence" : 2.05,
+	"Empid" : [
+		ObjectId("5add95f4a07e0e3f34c61ea8")
+	],
+	"Login_Time" : "9:08 am",
+	"Logout_Time" : "11:11 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5adeb0838f0e190f98271d5d"),
+	"CurrentActiveTime" : NumberInt("3000000"),
+	"Date" : "05/04/2018",
+	"Diffrence" : 0.1,
+	"Empid" : [
+		ObjectId("5add96d2a07e0e3f34c61eae")
+	],
+	"Login_Time" : "9:50 am",
+	"Logout_Time" : "9:56 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae0036f67bb9017a5396069"),
+	"CurrentActiveTime" : NumberInt("24600000"),
+	"Date" : "06/04/2018",
+	"Diffrence" : 2.35,
+	"Empid" : [
+		ObjectId("5add95f4a07e0e3f34c61ea8")
+	],
+	"Login_Time" : "9:56 am",
+	"Logout_Time" : "12:17 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae158c1296ea613f6bb66a6"),
+	"CurrentActiveTime" : NumberInt("21000000"),
+	"Date" : "07/04/2018",
+	"Diffrence" : 7.5,
+	"Empid" : [
+		ObjectId("5add95f4a07e0e3f34c61ea8")
+	],
+	"Login_Time" : "10:12 am",
+	"Logout_Time" : "5:42 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae159cf5f7d361b6c822697"),
+	"CurrentActiveTime" : NumberInt("22200000"),
+	"Date" : "08/04/2018",
+	"Diffrence" : 5.266666666666667,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "10:17 am",
+	"Logout_Time" : "3:33 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae163d925860e214afd1e98"),
+	"CurrentActiveTime" : NumberInt("60000"),
+	"Date" : "09/04/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add95f4a07e0e3f34c61ea8")
+	],
+	"Login_Time" : "11:00 am",
+	"Logout_Time" : "11:00 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae1649fa8b76f21db5d867b"),
+	"CurrentActiveTime" : NumberInt("4800000"),
+	"Date" : "10/04/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add95f4a07e0e3f34c61ea8")
+	],
+	"Login_Time" : "11:03 am",
+	"Logout_Time" : "11:03 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae1ad4a9ea8f353da43a4c0"),
+	"CurrentActiveTime" : NumberInt("60000"),
+	"Date" : "11/04/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add95f4a07e0e3f34c61ea8")
+	],
+	"Login_Time" : "4:13 pm",
+	"Logout_Time" : "4:13 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae29f30db5eee3ddca4fd80"),
+	"CurrentActiveTime" : NumberInt("1200000"),
+	"Date" : "12/04/2018",
+	"Diffrence" : 7.966666666666667,
+	"Empid" : [
+		ObjectId("5add95f4a07e0e3f34c61ea8")
+	],
+	"Login_Time" : "9:25 am",
+	"Logout_Time" : "5:23 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae2bc1e3951b855c0ad2be8"),
+	"CurrentActiveTime" : NumberInt("5400000"),
+	"Date" : "13/04/2018",
+	"Diffrence" : 1.2833333333333334,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "11:28 am",
+	"Logout_Time" : "12:45 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae30f49609f750ee6c4c3ab"),
+	"CurrentActiveTime" : NumberInt("600000"),
+	"Date" : "24/04/2018",
+	"Diffrence" : 0.35,
+	"Empid" : [
+		ObjectId("5add96d2a07e0e3f34c61eae")
+	],
+	"Login_Time" : "5:23 pm",
+	"Logout_Time" : "5:44 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae3f11db66ca40c16c732a8"),
+	"CurrentActiveTime" : NumberInt("600000"),
+	"Date" : "30/04/2018",
+	"Diffrence" : 0.25,
+	"Empid" : [
+		ObjectId("5add96d2a07e0e3f34c61eae")
+	],
+	"Login_Time" : "9:27 am",
+	"Logout_Time" : "9:42 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae3f49d38a84b0f07ccb99e"),
+	"CurrentActiveTime" : NumberInt("3000000"),
+	"Date" : "30/04/2018",
+	"Diffrence" : 2.8,
+	"Empid" : [
+		ObjectId("5add95f4a07e0e3f34c61ea8")
+	],
+	"Login_Time" : "9:42 am",
+	"Logout_Time" : "12:30 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae40e316528d51f90820df9"),
+	"CurrentActiveTime" : NumberInt("3000000"),
+	"Date" : "25/04/2018",
+	"Diffrence" : 1.0333333333333334,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "11:31 am",
+	"Logout_Time" : "12:33 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae690a24cc8391448f97e77"),
+	"CurrentActiveTime" : NumberInt("6000000"),
+	"Date" : "30/04/2018",
+	"Diffrence" : 1.2333333333333334,
+	"Empid" : [
+		ObjectId("5add95f4a07e0e3f34c61ea8")
+	],
+	"Login_Time" : "9:12 am",
+	"Logout_Time" : "10:26 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae692a2899af51608a00180"),
+	"CurrentActiveTime" : NumberInt("600000"),
+	"Date" : "26/04/2018",
+	"Diffrence" : 0.25,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "9:20 am",
+	"Logout_Time" : "9:35 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae6b2e780c8f42ff727297d"),
+	"CurrentActiveTime" : NumberInt("0"),
+	"Date" : "27/04/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "11:38 am",
+	"Logout_Time" : "11:38 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae6b2f680c8f42ff727297e"),
+	"CurrentActiveTime" : NumberInt("60000"),
+	"Date" : "28/04/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "11:38 am",
+	"Logout_Time" : "11:38 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae6d4a480bccf46e78eb3ff"),
+	"CurrentActiveTime" : NumberInt("60000"),
+	"Date" : "30/04/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add96bea07e0e3f34c61ead")
+	],
+	"Login_Time" : "2:02 pm",
+	"Logout_Time" : "2:02 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae6db0d3e3bbf4a7f8c0499"),
+	"CurrentActiveTime" : NumberInt("60000"),
+	"Date" : "29/04/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "2:29 pm",
+	"Logout_Time" : "2:29 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae6e8538bdca4500a2bc857"),
+	"CurrentActiveTime" : NumberInt("60000"),
+	"Date" : "30/04/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "3:26 pm",
+	"Logout_Time" : "3:26 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae6ff566848425ec37939d8"),
+	"CurrentActiveTime" : NumberInt("0"),
+	"Date" : "30/04/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "5:04 pm",
+	"Logout_Time" : "5:04 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae6fffb6848425ec37939d9"),
+	"CurrentActiveTime" : NumberInt("0"),
+	"Date" : "30/04/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "5:07 pm",
+	"Logout_Time" : "5:07 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae7009b6848425ec37939da"),
+	"CurrentActiveTime" : NumberInt("0"),
+	"Date" : "30/04/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "5:10 pm",
+	"Logout_Time" : "5:10 pm"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae933296154771281b4854b"),
+	"CurrentActiveTime" : NumberInt("0"),
+	"Date" : "02/05/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "9:10 am",
+	"Logout_Time" : "11:14 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae938320df2c01cb45521d7"),
+	"CurrentActiveTime" : NumberInt("4200000"),
+	"Date" : "02/05/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "9:31 am",
+	"Logout_Time" : "9:57 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae93a1f5dcf231f0bdd73db"),
+	"CurrentActiveTime" : NumberInt("60000"),
+	"Date" : "02/05/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "9:40 am",
+	"Logout_Time" : "9:40 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae93c80e729912053ce8590"),
+	"CurrentActiveTime" : NumberInt("0"),
+	"Date" : "03/05/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "9:50 am",
+	"Logout_Time" : "9:50 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae93e395892d222895c1a75"),
+	"CurrentActiveTime" : NumberInt("0"),
+	"Date" : "02/05/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add9694a07e0e3f34c61eaa")
+	],
+	"Login_Time" : "9:57 am",
+	"Logout_Time" : "9:57 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5ae93eb5b53e6822f7da35e6"),
+	"CurrentActiveTime" : NumberInt("60000"),
+	"Date" : "02/05/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add96d2a07e0e3f34c61eae")
+	],
+	"Login_Time" : "9:59 am",
+	"Logout_Time" : "10:00 am"
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("5aea8660d4d112133538e57e"),
+	"CurrentActiveTime" : NumberInt("0"),
+	"Date" : "3/05/2018",
+	"Diffrence" : null,
+	"Empid" : [
+		ObjectId("5add95f4a07e0e3f34c61ea8")
+	],
+	"Login_Time" : "9:5 am",
+	"Logout_Time" : "9:5 am"
+},
